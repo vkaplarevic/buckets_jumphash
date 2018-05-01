@@ -57,7 +57,7 @@ def main():
 	print("miss:", miss, "\n")
 
 	# Let's print this. All buckets should have
-	# roughly the same...
+	# roughly the same size with the jump hash function.
 	bucket_values = []
 	for s in range(0, 16):
 		print("shard:", s)
